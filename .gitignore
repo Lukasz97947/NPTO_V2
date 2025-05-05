@@ -1,0 +1,23 @@
+# Pliki binarne, wykonywalne
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Pliki kompilacji
+*.dSYM/
+*.obj
+
+# Pliki tymczasowe
+*.swp
+*.bak
+*~
+*.log
+
+# Foldery kompilacji
+/build/
+*/build/
+bin/
+*/bin/
