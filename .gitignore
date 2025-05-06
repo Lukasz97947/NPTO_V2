@@ -1,23 +1,65 @@
-# Pliki binarne, wykonywalne
-*.out
-*.o
-*.a
-*.so
-*.exe
-*.dll
+## Build results
+bin/
+obj/
+out/
 
-# Pliki kompilacji
-*.dSYM/
-*.obj
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Pliki tymczasowe
-*.swp
-*.bak
-*~
+## Visual Studio working folder
+.vscode/
+.vs/
+
+## ASP.NET
+App_Data/
+App_Code/
+App_Browsers/
+App_Themes/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider / JetBrains
+.idea/
+
+## Logs
 *.log
 
-# Foldery kompilacji
-/build/
-*/build/
-bin/
-*/bin/
+## Temporary files
+*.tmp
+*.temp
+*.bak
+
+## Compiled DLLs and EXEs
+*.dll
+*.exe
+*.pdb
+
+## Publish folder
+publish/
+
+## Coverage / test output
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+## Others
+_ReSharper*/
+*.dbmdl
+*.sdf
+*.sqlite
+*.cache
+*.pidb
+
+# Auto-generated files
+Generated_Code/
